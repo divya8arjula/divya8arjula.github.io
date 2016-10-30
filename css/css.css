@@ -11,11 +11,12 @@
 
 .menu-section-title {
   font-family: georgia;
-  font-size: 50px;
+  font-size: 30px;
   display: block;
   font-weight:normal;
   margin: 20px 0; 
   text-align: Center;
+  text-transform: none;
 }
 
 .menu-item {
