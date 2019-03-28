@@ -21,6 +21,21 @@
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
 </head>
+<style>
+@media (max-width: 480px) {
+  #picblock {
+    background-image: url(img/kim.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+@media (min-width: 481px) {
+  #picblock {
+    background-image: url(img/coming-soon.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}</style>
 
 
 <body>
@@ -56,7 +71,9 @@
     <div class="masthead-content">
       <div class="container">
         <div class="fill">
-            <img src="img/coming-soon.png" width="auto" height="auto" max-width= "100%">
+            <!--   <img src="img/coming-soon.png" width="auto" height="auto" max-width= "100%">-->
+            <div id="picblock">
+            
           </div>
       </div>
     </div>
