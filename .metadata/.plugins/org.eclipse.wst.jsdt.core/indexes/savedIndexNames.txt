@@ -1,8 +1,3 @@
 INDEX VERSION 1.4+/Users/arunkarka/Documents/GitHub/divya8arjula.github.io/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1403970670.index
-1346905639.index
-1835914944.index
-713730733.index
-2848221423.index
-3299376839.index
-662571865.index
+1303903523.index
+1128803496.index
