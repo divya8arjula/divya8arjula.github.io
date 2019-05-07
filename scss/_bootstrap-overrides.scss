@@ -1,0 +1,52 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($primary, 10%) !important;
+    border-color: darken($primary, 10%) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out($primary, 0.5);
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($secondary, 10%) !important;
+    border-color: darken($secondary, 10%) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out($secondary, 0.5);
+  }
+}
+
+.card-columns {
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xs) {
+    column-count: 2;
+  }
+}
+
+.card { 
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
