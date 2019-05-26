@@ -4,7 +4,7 @@
 // ==========
 
 // Email address notifications will be sent to
-$to_email = 'arunkarka@gmail.com';
+$to_email = 'ochoamigosllc@gmail.com';
 
 // Email subject
 $mail_subject = 'New email via Touche';
